@@ -7,7 +7,7 @@ export const ListElem = ({ onDelete, contact }) => {
       <li>
         {contact.name}:{contact.number}
         <BtnDelete type="button" onClick={() => onDelete(contact.id)}>
-          Delete
+          DeletE
         </BtnDelete>
       </li>
     </>
